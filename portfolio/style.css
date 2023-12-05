@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+}
+.header{
+    height: 30vh;
+    width: 100%;
+     background-color:rgb(41, 40, 40);
+    /* color: rgb(236, 226, 226);  */
+    
+}
+.header1{
+    float: left;
+    height: 25vh;
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+.header2{
+    float: left;
+    height: 25vh;
+    width: 50%;
+    /* background-color: antiquewhite; */
+}
+nav{
+    width: 100%;
+    height: 100px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .menu a{
+    text-decoration: none; 
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    position: relative;
+  }
+  .menu a:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    /* background-color: red; */
+    border-bottom: 2px solid red;
+    transition: 0.5s linear;
+  }
+  .menu a:hover:before{
+    width: 100%;
+  }
+  
+  
+
+.header3{
+    
+    height: 25vh;
+    width: 100%;
+    /* background-color: blue; */
+    color: white;
+    
+
+}
+.header3 span{
+    padding-left: 10%;
+    text-align: center;
+}
+
+.header3 span:hover{
+    color: indianred;
+    transition: 0.5s;
+}
+
+.about{
+    height: 370px;
+    width: 100%;
+    background: url(img3.jpg);
+    background-size: cover;
+    /* background-color: rgb(32, 82, 109); */
+}
+.about1{
+    float: left;
+    width: 35%;
+    height: 100%;
+    /* background-color: aliceblue; */
+}
+.about2{
+    float: left;
+    width: 55%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.about2 h2{
+    font-weight: 550;
+    margin-top: 10px;
+}
+.about2 h2:hover{
+    color: indianred;
+    transition: 0.5s;
+}
+.about1 img:hover{
+    box-shadow: 8px 8px 16px rgb(65, 64, 64);
+    transition: 0.5s;
+}
+.skill-section{
+    height: 220px;
+    width: 100%;
+    /* background-color: aqua; */
+    /* margin-left: 5%; */
+}
+.skill-section h2:hover{
+    color: indianred;
+    transition: 0.5s;
+}
+.project-section{
+    height: 550px;
+    width: 100%;
+    /* margin-left: 5%; */
+    background-color: aqua;
+}
+.resume-section{
+    height: 200px;
+    width: 100%;
+    /* margin-left: 5%; */
+    /* background-color: yellowgreen; */
+}
+.resume {
+    text-decoration: none; 
+    color: white;
+    padding: 10px 20px;
+    margin-left: 46%;
+    margin-top: 10%;
+    font-size: 15px;
+    background: red;
+    border-radius: 10px;
+    transition: 0.4s;
+  
+}
+.resume:hover{
+    background: transparent;
+    border: 1px solid red;
+    transition: 0.4s;
+    color: black;
+}
+.contact-section{
+    height: 400px;
+    width: 100%;
+    margin-top: 90px;
+    font-weight: 530;
+    background: url(img2.jpg);
+    background-size: cover;
+    /* margin-left: 5%; */
+    /* background-color: violet; */
+}
+
+.contact1{
+    float: left;
+    height: 70%;
+    width: 50%;
+    margin-top: 5%;
+    /* background-color: rgb(208, 202, 202); */
+}
+.contact2{
+    float: left;
+    height: 70%;
+    width: 50%;
+    margin-top: 5%;
+    /* background-color: rgb(173, 106, 106); */
+
+}
+.footer{
+    height: 150px;
+    width: 100%;
+    /* margin-left: ; */
+    color: rgb(211, 196, 196);
+    background-color:rgb(41, 40, 40);
+  
+
+}
+.footer1{
+    float: left;
+    height: 100%;
+    width: 48%;
+    /* background-color: rgb(232, 223, 223); */
+    /* background-color:rgb(41, 40, 40); */
+
+}
+.footer1 a{
+    text-decoration: none1;
+    color: rgb(227, 213, 213);
+    transition: 0.5s;
+}
+.footer1 a:hover{
+    color: rgb(111, 111, 247);
+    transition: 0.5s;
+}
+.footer2{
+    float: left;
+    height: 100%;
+    width: 48%;
+    /* background-color: rgb(232, 223, 223); */
+    /* background-color:rgb(41, 40, 40); */
+
+}
+.footer3{
+    float: left;
+    height: 100%;
+    width: 4%;
+    /* background-color: rgb(232, 223, 223); */
+    /* background-color:rgb(41, 40, 40); */
+
+}
